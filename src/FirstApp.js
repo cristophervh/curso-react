@@ -1,5 +1,5 @@
 
-export const FirstApp = (props) => {
+export const FirstApp = ({titulo, subtitulo}) => {
 
   const nuevoValor='Usuario';
   const nuevoArreglo=[1,2,3,4,5,6,7,8,9,0];
@@ -29,7 +29,10 @@ export const FirstApp = (props) => {
 
       <h1>Funcion: {unaFuncion()}</h1>
 
-      {console.log(props)}
+      <h1>
+          Props: <br/>Titulo: {titulo}<br/>
+                 Subtitulo: {subtitulo}
+      </h1>
 
     </>
   )
