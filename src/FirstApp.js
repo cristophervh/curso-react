@@ -44,3 +44,8 @@ export const FirstApp = ({titulo, subtitulo}) => {
     
     subtitulo:PropTypes.string.isRequired
   }
+
+
+  FirstApp.defaultProps={
+    subtitulo:'No hay subtítulo'
+  }
