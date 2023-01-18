@@ -1,5 +1,5 @@
 
-export const FirstApp = () => {
+const FirstApp = () => {
   return (
     <img
     src="https://i.imgur.com/yXOvdOSs.jpg"
@@ -8,4 +8,6 @@ export const FirstApp = () => {
     />
   )
 }
+
+export default FirstApp;
 
