@@ -13,6 +13,6 @@ ReactDOM.createRoot (document.getElementById('root')).render (
     <FirstApp/>
     <FirstApp/>
     <FirstApp/>
-  </React.StrictMode>
+  </React.StrictMode> 
 );
 
