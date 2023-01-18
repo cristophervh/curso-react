@@ -8,7 +8,7 @@ import './styles.css';
 ReactDOM.createRoot (document.getElementById('root')).render (
   <React.StrictMode>
     <HelloWorlApp/>
-    <FirstApp titulo="Hola Prop" subtitulo="Subtitulo" />
+    <FirstApp titulo="Hola Prop" />
   </React.StrictMode>
 );
 
